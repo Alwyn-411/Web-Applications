@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body>
+    <h2 align="middle" style="color:blue"> Karunya Labs.Co</h2>
+    <hr>
+        <div align="middle">
+            &nbsp&nbsp&nbsp&nbsp&nbsp<a href="Home.html" align="middle">Home</a>
+    &nbsp&nbsp&nbsp&nbsp&nbsp<a href="application.html" align="middle" >Application</a>
+        </div>
+    <hr>
+    <form action='submit.php' method="post" >
+        <fieldset align="center">
+            <legend>Application Form</legend>
+            <table align="center" >
+                <tr >
+                    <td align="left">
+                        Name:
+                    </td>
+                    <td align="left">
+                        <input type="text" name="name" placeholder="Enter your Name"  required >
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Application Number:
+                    </td>
+                    <td align="left">
+                        <input type="text" placeholder="KU2021CSE1001" name="name" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Password:
+                    </td>
+                    <td align="left">
+                        <input type="password" name="pass" placeholder="****************" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Date of Birth:
+                    </td>
+                    <td align="left">
+                        <input type="date" name="date" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Age: 
+                    </td>
+                    <td align="left">
+                        <input type="number" name="Age" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Mobile Number:
+                    </td>
+                    <td align="left">
+                        <input type="tel" name="ph" placeholder="Enter Mobile Number" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Email
+                    </td>
+                    <td align="left">
+                        <input type="email" name="mail" placeholder="Enter Email ID" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Gender:
+                    </td>
+                    <td align="left">
+                        <input type="radio" name="gender">Male
+                        <input type="radio" name="gender">Female
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Address:
+                    </td>
+                    <td align="left">
+                        <textarea name="address" rows="5" cols="25"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Languages Known:
+                    </td>
+                    <td align="left">
+                        <input type="checkbox" name="l[]">English
+                        <input type="checkbox" name="l[]">Tamil
+                        <input type="checkbox" name="l[]">Malayalam
+                        <input type="checkbox" name="l[]">Telugu
+                        <input type="checkbox" name="l[]">Hindi
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Select your Course:
+                    </td>
+                    <td align="left">
+                        <input list="Courses">
+                        <datalist id="Courses">
+                            <option value="Computer Science">                            </option>
+                            <option value="Mechanical Engineering"></option>
+                            <option value="ECE"></option>
+                        </datalist>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left">
+                        Upload your Photo
+                    </td>
+                    <td align="left">
+                        <input type="File" name="Photo" >
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td align="left">
+                        <input type="submit">
+                    </td>
+                </tr>
+            </table>
+             
+        </fieldset>
+    </form>
+
+</body>
+</html>
